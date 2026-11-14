@@ -24,13 +24,13 @@ Three ideas hold the org together:
 | [radio](https://github.com/The-Replacement/radio) | The station: Liquidsoap + Icecast + Caddy + MediaMTX + the player page, orchestrated with Docker Compose. |
 | [indiegenerator](https://github.com/The-Replacement/indiegenerator) | The composer: batch, offline, deterministic music generation (DSP in Python) that fills the library. |
 | [infra](https://github.com/The-Replacement/infra) | Deploy, monitoring, runbooks and backup for the host. |
-| [n3rv-thereplacement](https://github.com/The-Replacement/n3rv-thereplacement) | The engineering harness the three repos are built with: agent memory, skills, SDD pipeline. |
+| [n3rv](https://github.com/The-Replacement/n3rv) | The active engineering harness: agent memory, skills, subagent dispatch, and the SDD pipeline. |
 
 ## How work happens here
 
 Feature work runs through a spec-driven pipeline — explore, propose, spec,
 design, tasks, apply, verify, archive — tracked on the
-[The-Replacement Roadmap](https://github.com/orgs/The-Replacement/projects/2)
+[The-Replacement Roadmap](https://github.com/orgs/The-Replacement/projects/1)
 board. Commits are conventional. Every claim in a document is expected to be
 checkable, and the gates that check them live next to the code they judge.
 
